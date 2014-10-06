@@ -1,6 +1,6 @@
 {
   "name": "passport-smartsheet",
-  "version": "1.0.1",
+  "version": "1.0.1-a",
   "description": "Smartsheet authentication strategy for Passport.",
   "keywords": [
     "passport",
