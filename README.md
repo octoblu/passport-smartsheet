@@ -1,10 +1,10 @@
 # passport-smartsheet
 
-[Passport](http://passportjs.org/) strategy for authenticating with [Smart Sheets](http://smartsheet.com/)
+[Passport](http://passportjs.org/) strategy for authenticating with [Smartsheet](http://smartsheet.com/)
 using the OAuth 2.0a API.
 
-This module lets you authenticate using Smart Sheets in your Node.js applications.
-By plugging into Passport, Smart Sheets authentication can be easily and
+This module lets you authenticate using Smartsheet in your Node.js applications.
+By plugging into Passport, Smartsheet authentication can be easily and
 unobtrusively integrated into any application or framework that supports
 [Connect](http://www.senchalabs.org/connect/)-style middleware, including
 [Express](http://expressjs.com/).
