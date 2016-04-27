@@ -20,7 +20,9 @@ unobtrusively integrated into any application or framework that supports
     passport.use(new SmartsheetStrategy({
         clientID : SMARTSHEET_CLIENT_KEY,
         clientSecret: SMARTSHEET_CLIENT_SECRET,
-        callbackURL: "http://127.0.0.1:3000/auth/smartsheet/callback"
+        callbackURL: "http://127.0.0.1:3000/auth/smartsheet/callback",
+        scope: ["READ_USERS"],
+        tokenURL: "https://api.smartsheet.com/2.0/token" //this tokenURL defaults to the deprecated 1.1 api, 
       },
       function(token, tokenSecret, profile, done) {
         User.findOrCreate({ smartsheetId: profile.id }, function (err, user) {
